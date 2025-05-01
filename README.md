@@ -1,1 +1,18 @@
-# Task7_elevatelabs
+# SQLite Sales Dashboard using Python
+-  This project demonstrates how to use SQLite, Pandas, and Matplotlib to create a simple data analysis pipeline for sales data.
+-  What I’ve Done:
+    -  Created a SQLite database (sales_data.db) with a sales table.
+    -  Inserted sample data of product sales (Laptop, Tablet, Phone).
+-  Used SQL queries to calculate:
+    -  Total quantity sold per product
+    -  Total revenue per product
+-  Loaded the results into a Pandas DataFrame.
+-  Visualized the sales summary with the following charts:
+    -  Bar Chart: Revenue by product
+    -  Bar Chart: Quantity sold by product
+    -  Pie Chart: Revenue share by product
+    -  Horizontal Bar Chart: Sorted revenue by product
+-  Tools Used:
+    -  sqlite3 for database operations
+    -  pandas for data handling
+    -  matplotlib for visualization
